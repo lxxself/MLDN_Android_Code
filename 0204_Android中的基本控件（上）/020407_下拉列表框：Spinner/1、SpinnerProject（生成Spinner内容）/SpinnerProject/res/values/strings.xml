@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, MySpinnerDemo!</string>
+	<string name="app_name">下拉列表</string>
+	<string name="city_prompt">请选择您喜欢的城市：</string>
+</resources>

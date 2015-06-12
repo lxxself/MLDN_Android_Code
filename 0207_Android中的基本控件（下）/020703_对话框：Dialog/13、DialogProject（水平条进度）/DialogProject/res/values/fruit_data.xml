@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="fruit_labels">
+		<item>苹果</item>
+		<item>西瓜</item>
+		<item>水蜜桃</item>
+	</string-array>
+</resources>

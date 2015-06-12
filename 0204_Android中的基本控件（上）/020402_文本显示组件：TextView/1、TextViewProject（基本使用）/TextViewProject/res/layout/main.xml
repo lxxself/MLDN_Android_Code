@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView 
+		android:id="@+id/mytext1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:textColor="#FFFF00"
+		android:textSize="12px"
+		android:text="北京魔乐科技软件学院（MLDN）" />
+	<TextView 
+		android:id="@+id/mytext2"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:layout_margin="30px"
+		android:text="网址：www.mldnjava.cn" />
+	<TextView 
+		android:id="@+id/mytext3"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="10px"
+		android:text="李兴华老师" 
+		android:maxLength="3"/>
+	<TextView 
+		android:id="@+id/mytext4"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:background="@drawable/logo"
+		android:textColor="#000000"
+		android:textStyle="bold"
+		android:text="这是在背景上的文字信息" />
+</LinearLayout>

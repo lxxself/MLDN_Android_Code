@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MyDatePickerDemo!</string>
+    <string name="app_name">日期选择器</string>
+</resources>

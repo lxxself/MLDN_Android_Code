@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TableRow>
+		<TextView 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="20px" 
+			android:text="姓名：" />
+		<TextView
+			android:id="@+id/name" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+	</TableRow>
+	<TableRow>
+		<TextView 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="20px" 
+			android:text="邮箱：" />
+		<TextView
+			android:id="@+id/email" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+	</TableRow>
+	<TableRow>
+		<Button
+			android:id="@+id/but" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="读取" />
+	</TableRow>
+</TableLayout>

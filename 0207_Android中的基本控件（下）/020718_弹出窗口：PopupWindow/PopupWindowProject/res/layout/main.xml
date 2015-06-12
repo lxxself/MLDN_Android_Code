@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView 
+		android:id="@+id/statusinfo"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="当前用户状态：在线" />
+	<Button 
+		android:id="@+id/popbut"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="状态" />
+</LinearLayout>

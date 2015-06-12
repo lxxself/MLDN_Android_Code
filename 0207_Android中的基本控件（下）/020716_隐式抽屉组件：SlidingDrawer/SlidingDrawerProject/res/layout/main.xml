@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<SlidingDrawer
+		android:id="@+id/slidingdrawer"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:orientation="horizontal"
+		android:handle="@+id/handle"
+		android:content="@+id/content">
+		<ImageView
+			android:id="@+id/handle"
+			android:src="@drawable/ico_left"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+		<LinearLayout 
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/content"
+			android:orientation="vertical" 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+		</LinearLayout>
+	</SlidingDrawer>
+</LinearLayout>

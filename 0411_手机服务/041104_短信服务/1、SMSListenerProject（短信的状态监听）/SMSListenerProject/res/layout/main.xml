@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TableLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TableRow>
+			<TextView 
+				android:layout_width="90px"
+				android:layout_height="wrap_content" 
+				android:text="收信人：" 
+				android:textSize="20px"/>
+			<EditText 
+				android:id="@+id/tel"
+				android:numeric="integer"
+				android:layout_width="260px"
+				android:layout_height="wrap_content" 
+				android:textSize="20px"/>
+		</TableRow>
+		<View
+			android:layout_height="2px"
+			android:background="#FF909090" />
+		<TableRow>
+			<TextView 
+				android:layout_width="90px"
+				android:layout_height="wrap_content" 
+				android:text="内容：" 
+				android:textSize="20px"/>
+			<EditText 
+				android:id="@+id/content"
+				android:lines="6"
+				android:gravity="top"
+				android:layout_width="260px"
+				android:layout_height="wrap_content" />
+		</TableRow>
+		<View
+			android:layout_height="2px"
+			android:background="#FF909090" />
+	</TableLayout>
+	<Button 
+		android:id="@+id/send"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="发送短信" />
+</LinearLayout>

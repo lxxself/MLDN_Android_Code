@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="msg_style">
+		<item name="android:textSize">45px</item>
+		<item name="android:textColor">#FFFF00</item>
+		<item name="android:autoLink">all</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+</resources>

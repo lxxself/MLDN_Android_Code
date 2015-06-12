@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView
+		android:id="@+id/show" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="您的性别是："
+		android:textSize="20px" />
+	<RadioGroup
+		android:id="@+id/sex"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:checkedButton="@+id/male">
+		<RadioButton
+			android:id="@+id/male"
+			android:text="男"/>
+		<RadioButton
+			android:id="@+id/female"
+			android:text="女"/>
+	</RadioGroup>
+</LinearLayout>

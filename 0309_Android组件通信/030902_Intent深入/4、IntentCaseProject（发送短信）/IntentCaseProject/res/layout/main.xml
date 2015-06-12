@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TableLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TableRow>
+			<TextView 
+				android:text="收信人："
+				android:layout_width="90px"
+				android:layout_height="wrap_content" 
+				android:textSize="20px"/>
+			<EditText 
+				android:id="@+id/tel"
+				android:numeric="integer"
+				android:layout_width="260px"
+				android:layout_height="wrap_content" 
+				android:text="13683527621"/>
+		</TableRow>
+		<View 
+			android:layout_height="2px"
+			android:background="#FF909090" />
+		<TableRow>
+			<TextView 
+				android:text="内容："
+				android:layout_width="90px"
+				android:layout_height="wrap_content" 
+				android:textSize="20px"/>
+			<EditText 
+				android:id="@+id/content"
+				android:lines="6"
+				android:gravity="top"
+				android:layout_width="260px"
+				android:layout_height="wrap_content"
+				android:text="北京魔乐科技软件学院（MLDN）" />
+		</TableRow>
+		<View 
+			android:layout_height="2px"
+			android:background="#FF909090" />
+	</TableLayout>
+	<Button 
+		android:id="@+id/mybut"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="发送短信" />
+</LinearLayout>

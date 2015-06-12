@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:id="@+id/item01"
+		android:title="添加联系人" />
+	<item
+		android:id="@+id/item02"
+		android:title="查看详情" />
+	<item
+		android:id="@+id/item03"
+		android:title="删除信息" />
+	<item
+		android:id="@+id/item04"
+		android:title="另存为" />
+	<item
+		android:id="@+id/item05"
+		android:title="编辑" />
+</menu>

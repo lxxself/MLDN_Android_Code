@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:id="@+id/item01"
+		android:title="添加"
+		android:icon="@android:drawable/ic_menu_add" />
+	<item
+		android:id="@+id/item02"
+		android:title="保存"
+		android:icon="@android:drawable/ic_menu_save" />
+	<item
+		android:id="@+id/item03"
+		android:title="编辑"
+		android:icon="@android:drawable/ic_menu_edit" />
+	<item
+		android:id="@+id/item04"
+		android:title="详情"
+		android:icon="@android:drawable/ic_menu_info_details" />
+	<item
+		android:id="@+id/item05"
+		android:title="删除"
+		android:icon="@android:drawable/ic_menu_delete" />
+	<item
+		android:id="@+id/item06"
+		android:title="发送"
+		android:icon="@android:drawable/ic_menu_send" />
+	<item
+		android:id="@+id/item07"
+		android:title="帮助"
+		android:icon="@android:drawable/ic_menu_help" />
+</menu>

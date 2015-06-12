@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<Button
+		android:id="@+id/mybut1" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textColor="#FFFF00"
+		android:textSize="12px" 
+		android:text="北京魔乐科技软件学院（MLDN）" />
+	<Button
+		android:id="@+id/mybut2" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="网址：www.mldnjava.cn" 
+		android:layout_margin="30px"/>
+	<Button
+		android:id="@+id/mybut3" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="李兴华老师" 
+		android:layout_margin="10px"
+		android:maxLength="3"/>	
+</LinearLayout>

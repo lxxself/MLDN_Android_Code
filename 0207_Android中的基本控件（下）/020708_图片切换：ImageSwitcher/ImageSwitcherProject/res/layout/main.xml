@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ImageSwitcher
+		android:id="@+id/myImageSwitcher"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+	<LinearLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<Button
+			android:id="@+id/butPrevious"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:enabled="false"
+			android:text="上一张图片" />
+		<Button
+			android:id="@+id/butNext"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:enabled="true"
+			android:text="下一张图片" />
+	</LinearLayout>
+</LinearLayout>

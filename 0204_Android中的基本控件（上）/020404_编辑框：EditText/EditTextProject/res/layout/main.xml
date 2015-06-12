@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<EditText 
+		android:id="@+id/myet1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="北京魔乐科技软件学院（MLDN）" 
+		android:selectAllOnFocus="true"/>
+	<EditText 
+		android:id="@+id/myet2"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="网址:www.mldnjava.cn" />
+	<EditText 
+		android:id="@+id/myet3"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:password="true"
+		android:text="用户登录密码" />
+	<EditText 
+		android:id="@+id/myet4"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:numeric="integer"
+		android:text="51283346" />
+</LinearLayout>

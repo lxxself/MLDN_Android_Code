@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ProgressBar
+		android:id="@+id/myprobarA"
+		android:visibility="gone"
+		style="?android:attr/progressBarStyle"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	<ProgressBar
+		android:id="@+id/myprobarB"
+		android:visibility="gone"
+		style="?android:attr/progressBarStyleHorizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	<ProgressBar
+		android:id="@+id/myprobarC"
+		android:visibility="gone"
+		style="?android:attr/progressBarStyleHorizontal"
+		android:max="120"
+		android:progress="0"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	<ProgressBar
+		android:id="@+id/myprobarD"
+		android:visibility="gone"
+		style="?android:attr/progressBarStyleLarge"
+		android:max="120"
+		android:progress="50"
+		android:secondaryProgress="70"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	<ProgressBar
+		android:id="@+id/myprobarE"
+		android:visibility="gone"
+		style="?android:attr/progressBarStyleSmall"
+		android:max="120"
+		android:progress="50"
+		android:secondaryProgress="70"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	<Button
+		android:id="@+id/mybut"
+		android:text="显示进度条"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+</LinearLayout>

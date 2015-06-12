@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView 
+		android:id="@+id/myshowa"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="李兴华" />
+	<TextView 
+		android:id="@+id/myshowb"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="北京魔乐科技软件学院（MLDN）" />
+	<TextView 
+		android:id="@+id/myshowc"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="www.mldnjava.cn" />
+</LinearLayout>

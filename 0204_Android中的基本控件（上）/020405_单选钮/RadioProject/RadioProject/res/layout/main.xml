@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView
+		android:id="@+id/encinfo" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:textSize="20px"
+		android:text="请选择要使用的文字编码：" />
+	<RadioGroup
+		android:id="@+id/encoding" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:checkedButton="@+id/gbk">
+		<RadioButton
+			android:id="@+id/utf"
+			android:text="UTF编码" />
+		<RadioButton
+			android:id="@+id/gbk"
+			android:text="GBK编码" />
+	</RadioGroup>
+	<TextView
+		android:id="@+id/sexinfo" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:textSize="20px"
+		android:text="您的性别是：" />
+	<RadioGroup
+		android:id="@+id/sex" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:checkedButton="@+id/male">
+		<RadioButton
+			android:id="@+id/male"
+			android:text="男" />
+		<RadioButton
+			android:id="@+id/female"
+			android:text="女" />
+	</RadioGroup>
+</LinearLayout>

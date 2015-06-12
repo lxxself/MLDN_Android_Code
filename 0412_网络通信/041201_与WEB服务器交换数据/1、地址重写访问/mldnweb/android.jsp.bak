@@ -1,0 +1,17 @@
+<%	// 接收发送来的请求
+	String id = request.getParameter("id") ;
+	String password = request.getParameter("password") ;
+%>
+<%
+	if ("lixinghua".equals(id) && "mldn".equals(password)) {
+%>
+		true 
+<%
+	} else {
+%>
+		false 
+<%
+	}
+%>
+
+http://114.249.165.249/mldn/android.jsp?id=lixinghua&password=mldn

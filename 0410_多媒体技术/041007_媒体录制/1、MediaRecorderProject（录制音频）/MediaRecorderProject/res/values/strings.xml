@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MyMediaRecorderDemo!</string>
+    <string name="app_name">媒体录制</string>
+</resources>

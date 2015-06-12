@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Hello!</string>
+	<string name="app_name">MLDN的Android开发实战经典 —— 李兴华</string>
+	<string name="info">北京魔乐科技软件学院（MLDN）</string>
+	<string name="msg">按我，不过没用</string>
+</resources>

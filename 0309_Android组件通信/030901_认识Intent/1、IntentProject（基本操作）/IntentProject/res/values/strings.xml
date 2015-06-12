@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MyIntentDemo!</string>
+    <string name="app_name">Intent操作</string>
+    <string name="send_name">发送Intent的Activity程序。</string>
+    <string name="receive_name">接收Intent的Activity程序.</string>
+</resources>

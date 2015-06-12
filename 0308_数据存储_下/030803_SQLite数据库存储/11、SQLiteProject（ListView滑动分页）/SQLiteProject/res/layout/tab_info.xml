@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/mylayout"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TableRow>
+		<TextView
+			android:id="@+id/id"
+			android:textSize="30px"
+			android:layout_height="wrap_content"
+			android:layout_width="50px"/>
+		<TextView
+			android:id="@+id/name"
+			android:textSize="30px"
+			android:layout_height="wrap_content"
+			android:layout_width="130px"/>
+		<TextView
+			android:id="@+id/birthday"
+			android:textSize="30px"
+			android:layout_height="wrap_content"
+			android:layout_width="180px"/>
+	</TableRow>
+</TableLayout>

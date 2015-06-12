@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<Button 
+		android:id="@+id/insertBut"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="增加数据" />
+	<Button 
+		android:id="@+id/updateBut"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="修改数据" />
+	<Button 
+		android:id="@+id/deleteBut"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="删除数据" />
+</LinearLayout>

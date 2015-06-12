@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, MyActivityGroupDemo!</string>
+	<string name="app_name">ActivityGroup操作</string>
+	<string name="popmenu_common">常用</string>
+	<string name="popmenu_set">设置</string>
+	<string name="popmenu_tool">工具</string>
+</resources>

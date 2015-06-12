@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MySlidingDrawerDemo!</string>
+    <string name="app_name">抽屉组件</string>
+</resources>

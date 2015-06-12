@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TableLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TableRow>
+			<EditText
+				android:id="@+id/msg"
+				android:layout_width="200px"
+				android:layout_height="wrap_content" 
+				android:text="颐和园" />
+			<Button
+				android:id="@+id/search"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:text="检索周边信息" />
+		</TableRow>
+	</TableLayout>
+	<com.google.android.maps.MapView
+		android:id="@+id/mapview" android:clickable="true" android:enabled="true"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:apiKey="0iY0AdVaszVJrJidd6hpirkPStioiy-1R5Eq3tg" />
+</LinearLayout>

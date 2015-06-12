@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MyAbsoluteLayoutDemo!</string>
+    <string name="app_name">绝对定位布局 —— 2.2</string>
+</resources>
